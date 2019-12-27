@@ -2,6 +2,7 @@ body{
     width: 100%;
     height: 100%;
     margin:  0 auto;
+    overflow-x: hidden;
 }
 
 
@@ -246,3 +247,73 @@ h3 {
     position: relative!important;
 }
 
+.bloco-logos {
+    height: 176px;
+}
+
+.bloco-logos img {
+    margin-top: 50px;
+}
+
+footer h3 {
+    text-align: left;
+}
+
+
+.footer {
+    background-image: url("../img/footer.png");
+    color: #ffffff;
+}
+
+.footer-2 {
+    background-image: url("../img/footer2.png");
+    color: #ffffff;
+    text-align: left;
+}
+
+.footer-2 p {
+    padding: 10px;
+}
+
+.clock {
+    color: #787878;
+}
+
+.clock::before {
+    content: "";
+    width: 15px;
+    height: 15px;
+    display: inline-block;
+    background-image: url("../img/clock.png");
+    background-repeat: no-repeat;
+    float: left;
+    padding-left: 7px;
+    
+}
+
+.footer p{
+    width: 90%;
+    text-align: left;
+}
+
+.local::before, .emailicon::before, .telefoneicon::before {
+    content: "";
+    width: 17px;
+    height: 23px;
+    display: inline-block;
+    background-repeat: no-repeat;
+    float: left;
+    padding-left: 7px;
+}
+
+.local::before {
+    background-image: url("../img/emailico.png");
+}
+
+.emailicon::before {
+    background-image: url("../img/email.png");
+}
+
+.telefoneicon::before {
+    background-image: url("../img/telefoneico.png");
+}

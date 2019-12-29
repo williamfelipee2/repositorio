@@ -317,3 +317,90 @@ footer h3 {
 .telefoneicon::before {
     background-image: url("../img/telefoneico.png");
 }
+
+
+@media only screen and (max-width: 600px){
+    body {
+        width: 100%;   
+        overflow-x: hidden;     
+    }
+
+    div {
+        width: 100%;
+        position: relative;
+    }
+
+    .menu-principal{
+        width: 100%;
+        display: inline-block;
+        position: relative;
+    }
+
+    .redes-sociais{
+        width: auto;
+        display: block;
+    }
+
+    .header-2{
+        width: 20%;
+        display: block;
+    }
+
+    .busca {
+        display: inline-block;
+    }
+
+    .col-4{
+        width: auto;
+        display: block;
+    }
+
+    p{
+        font-size: 14px;
+        margin-left: 0 auto;
+        padding: 5px;
+        white-space: normal;
+    }
+
+    .bloco-logos img{
+        width: auto;
+        position: static;
+        margin: 30px;
+    }
+
+    .col-3  {
+        width: auto;
+        display: block;
+        margin-right: 0;
+    }
+
+    .col-100 {
+        width: 100;
+        display: block;
+    }
+    
+    .texto-destaque {
+        width: 100%;
+    }
+
+    .bloco-imagem{
+        display: block;
+        width: 40%;
+        
+    }
+
+    .bloco-texto {
+        font-size: inherit;
+        padding: auto;
+    }
+
+    .content {
+        width: auto;
+    }
+
+
+
+        
+    }
+
+    

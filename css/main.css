@@ -6,35 +6,38 @@ body{
 }
 
 
-.menu-principal {
+ul {
+    padding: 0px!important; 
+ }
+ .menu-principal {
     width: 100%;
     background-color: #252323;
     height: 60px;
+ }
 
-}
-
-main, .content {
+ main, .content {
     margin: 0 auto;
     width: 980px;
     position: relative;
-}
+ }
 
-
-
-.logo{
+ .logo {
     float: left;
     padding: 16px;
-    width: 50%;
-}
+    width: 70%;
+ }
+
 
 .redes-sociais ul li{
-    display: inline;
-    margin-left: 10px;
+    margin-left: 25px;
+    display: inline-block;
+    float: left;
+    list-style: none;
 }
 
 .redes-sociais{
     width: 20%;
-    float: right;
+    float: left;
 }
 
 .header-2 {
@@ -85,11 +88,12 @@ main, .content {
     background-image: url(../img/icone-search.png);
     background-repeat: no-repeat;
     background-position: 98%;
-    height: 36px;
+    height: 20px;
     margin-top: 10px;
     padding: 7px;
     width: 190px;
-    border-radius: 1px solid #d6d6d6;
+    border-radius: 10px solid #d6d6d6;
+    margin-left: 120px;
 }
 
 .col-100 {
@@ -319,14 +323,17 @@ footer h3 {
 }
 
 
-@media only screen and (max-width: 600px){
+@media  (max-width: 600px){
+    html{
+        overflow-x: hidden;
+    }
     body {
-        width: 100%;   
-        overflow-x: hidden;     
+        width: auto;   
+       
     }
 
     div {
-        width: 100%;
+        width: auto;
         position: relative;
     }
 
@@ -336,10 +343,11 @@ footer h3 {
         position: relative;
     }
 
-    .redes-sociais{
-        width: auto;
-        display: block;
+    .redes-sociais {
+       position: relative;
+       margin-top: 15%;
     }
+   
 
     .header-2{
         width: 20%;
@@ -347,18 +355,21 @@ footer h3 {
     }
 
     .busca {
-        display: inline-block;
+        display: block;
+        width: 50%;
+        right: 120px ;
+        
     }
 
     .col-4{
-        width: auto;
+        width: 100%;
         display: block;
     }
 
     p{
-        font-size: 14px;
+        font-size: 12px;
         margin-left: 0 auto;
-        padding: 5px;
+        padding: 4px;
         white-space: normal;
     }
 
@@ -399,7 +410,17 @@ footer h3 {
     }
 
 
-
+    .menu {
+       display: inline-block;
+       font-size: 14px;
+       width: 70%;
+      
+    } 
+    main, .content {
+        margin: 0 auto;
+        width: auto;
+        position: relative;
+     }   
         
     }
 
